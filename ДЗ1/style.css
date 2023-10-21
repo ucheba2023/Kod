@@ -1,0 +1,49 @@
+.box1, 
+.box1>div {
+    border: 2px solid #000;
+} 
+.box1 {
+    padding: 20px;
+    width: 370px;
+    background-color: aqua;
+}
+
+.item1 {
+    width: 20px;
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.item2 {
+    width: 40px;
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.item3 {
+    width: 60px;
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.item4 {
+    width: 90px;
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.item5 {
+    width: 120px;
+    height: 70px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+}

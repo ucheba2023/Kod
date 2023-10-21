@@ -1,0 +1,31 @@
+h1 {
+    border: 1px solid#000;
+    background-color: rgb(220, 232, 232);
+    font-style: italic;
+    width: 400px;
+    margin: 0 auto;
+}
+
+div {
+    font-style: normal;
+    color:rgb(62, 114, 114);
+}
+
+h2 {
+    border-left: 5px dotted green;
+    width: 400px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: blanchedalmond;
+    
+}
+
+h3 {
+    border: 1px solid #000;
+    width: 400px;
+    margin: 0 auto;
+    
+}
+

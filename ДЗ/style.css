@@ -1,0 +1,12 @@
+body {
+    background-color: Pink;
+  }
+  /* button{
+    align-item: right;
+  } */
+  textarea:focus {
+    border: 5px solid pink;
+  }
+  input[type="submit"] {
+    align-item: flex-end;
+  }

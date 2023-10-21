@@ -1,0 +1,14 @@
+em:hover{
+    color:orange;
+}
+p{
+    color:red;
+   
+}
+p::first-letter{
+    color:blue;
+}
+a{
+    text-decoration: underline;
+    color:green;
+}

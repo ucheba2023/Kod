@@ -1,0 +1,15 @@
+.p_1{
+    background-color: yellow;
+    width: 500px;
+}
+#p_2{
+    text-decoration: line-through;     
+}
+.p_3{
+    background-color: fuchsia;
+    text-align: right;
+    width: 500px;
+}
+#p_4{
+    text-decoration: underline;
+}

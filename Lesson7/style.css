@@ -1,0 +1,66 @@
+.box1,
+.box1>div
+.left>div,
+.right>div {
+    /* width: 50px;
+    height: 50px; */
+    border: 2px solid #cc2d2d;
+}
+
+.box1 {
+    padding: 40px;
+    width: 380px;
+}
+
+.left {
+    width: 80px;
+    display: inline-block;
+    margin-right: 40px;
+    border:none;
+}
+
+.right {
+    width: 240px;
+    display: inline-block;
+    border: none;
+}
+
+.item1 {
+    width: 80px;
+    height: 70px;
+    background-color: red;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.item3 {
+    width: 80px;
+    height: 180px;
+    background-color: blue;
+    margin-right: 40px;
+}
+
+.item2 {
+   width: 240px;
+   height: 180px;
+   background-color: green; 
+   margin-bottom: 40px;
+   /* margin-top: -150px;
+   margin-left: 240px; */
+}
+
+.item4 {
+    width: 240px;
+    height: 70px;
+    background-color: yellow;
+} 
+
+.box2 {
+    width: 300px;
+    height: 150px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+

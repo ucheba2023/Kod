@@ -1,0 +1,9 @@
+em{
+    color: orange;
+}  
+p::first-line{
+    color: red;
+}  
+span{
+    color:blue; 
+}
