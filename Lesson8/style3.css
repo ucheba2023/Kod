@@ -1,0 +1,24 @@
+.list {
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid red;
+    margin: 0px auto;
+    text-align: center;
+    width: 300px;
+}
+
+.list li {
+    border: 1px solid #000;
+}
+
+.list a {
+    text-decoration: none;
+    color: #000
+    font-weight: bolt;
+    text-transform: uppercase;
+    border: 1px solid green;
+    /* display: inline-block; */
+    /* width: 100%; */
+}
+
+

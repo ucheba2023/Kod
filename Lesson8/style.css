@@ -1,0 +1,58 @@
+.box {
+    width: 500px;
+    height: 400px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.header {
+    background-color: plum;
+    color: wheat;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.colors > div {
+    width: 85px;
+    height: 85px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    box-sizing: border-box;
+    border: 6px solid transparent ;
+} 
+
+.colors > div:hover {
+    border: 5px solid purple;
+    
+}
+
+.item1 {
+    background-color: gray;
+    display: block;
+}
+
+.item2 {
+    background-color: red;
+}
+
+.item3 {
+    background-color: orange;
+}
+
+.item4 {
+    background-color: violet
+}
+
+
+.item5 {
+    background-color: gold;
+}
+
+
+.item6 {
+    background-color: gainsboro
+}
+
