@@ -1,0 +1,113 @@
+.box1 {
+    border: 1px solid #000;
+    width: 1000px; 
+    height: 350px;
+    /* background-image: url(Vxt0Eu43d50.jpg); */
+    background-image: url(2.png);
+    /* background-size: contain; */
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.box2 {
+    width: 300px; 
+    height: 150px;
+    box-shadow: inset 0px 0px 20px 0px red,
+    1px 1px 1px 5px blue;
+}
+
+.box3 {
+    width: 300px; 
+    height: 150px;
+    border: 1px solid #000;
+    /* background-image: linear-gradient(to top right, red, blue);
+    background-image: linear-gradient(70deg, red, blue);
+    background-image: linear-gradient(to right, blue 0%, blue 20%, red 20%, red 80%, orange 80%, orange 100%); */
+    background-image: radial-gradient(circle at 50% 50%, red, blue);
+}
+
+.box4 {
+    width: 300px; 
+    height: 150px;
+    border: 1px solid #000;
+    background-image: linear-gradient(
+        rgba(255, 165, 0, 0.5), 
+        rgba(0, 128, 0, 0.4)
+        ), url(Vxt0Eu43d50.jpg);
+    background-size: cover;
+}    
+
+.box5 {
+    width: 300px; 
+    height: 150px;
+    border: 1px solid #000;
+    /* transition-property: all; */
+    transition-property: background-color;
+    transition-duration: 1s;
+    /* transition-delay: 1.5s; */
+    transition-timing-function: ease;
+}
+
+.box5:hover {
+    background-color: blueviolet;
+    width: 500px;
+}
+
+.box6 {
+    width: 200px; 
+    height: 150px;
+    border: 1px solid #000;
+    transform: 0.5s;
+}   
+.box6:hover {
+    /* transform: translateX(-100px);
+    transform: translateY(-100px); */
+    /* transform: translate(100px, 100px); */
+    /* transform: scaleX(2);
+    transform: scaleY(0.5);  */
+    /* transform: scale(2, 0.5); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotate(360deg); */
+    transform: skew(30deg, 60deg);
+}
+
+.box7 {
+    width: 200px; 
+    height: 150px;
+    border: 1px solid #000;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}    
+
+@keyframes rotate {
+    20% {
+        background-color: gray;
+    }
+       100% {
+        transform: rotate(360deg);
+    }
+}
+
+.box8 {
+    width: 30px;
+    height: 50px;
+    background: brown;
+    animation: move 2s infinite, changeColor 2s infinite;
+    animation-durection: reverse;
+    animation-durection: alternate-reverse;
+}
+
+@keyframes move {
+    100% {
+        transform: translateX(400px);
+    }
+}
+
+@keyframes rotate {
+    100% {
+        background: burlywood;
+    }    
+}

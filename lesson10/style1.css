@@ -1,0 +1,17 @@
+body {
+    background-color: #285e8b;
+}
+.reg {
+    /* border: 1px solid red; */
+    width: 350px;
+    margin: 0px auto;
+    background-image: linear-gradient(to right, rgb(37, 72, 92) 0%, rgb(37, 72, 92) 50%, rgb(19, 50, 71) 50%, rgb(19, 50, 71) 100%);
+    border-top: 4px solid rgb(70, 206, 239);
+    border-radius: 0px 0px 5px 5px;
+}
+.reg img {
+    width: 100px;
+    transform: translate(125px, -50px);
+    
+}
+
