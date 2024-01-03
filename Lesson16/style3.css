@@ -1,0 +1,98 @@
+.item1 {
+    height: 100px;
+}
+
+/* @media only screen and (min-width: 400px) {
+    .item1 {
+        background-color: red;
+    }
+   
+}
+@media only screen and (min-width: 800px) {
+    .item1 {
+        background-color: blue;
+    }
+   
+} */
+
+
+/* @media screen and (max-width: 1000px) {
+    .item1 {
+        background-color: yellow;
+    }
+}
+@media screen and (max-width: 800px) {
+    .item1 {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .item1 {
+        background-color: green;
+    }
+}
+@media screen and (max-width: 800px) {
+    .item1 {
+        background-color: red;
+    }
+} */
+
+@media screen and (min-width: 1201px) {
+    .item1 {
+        background-color: pink;
+    }
+    .item1:before {
+        content: "Большие экраны и тд";
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .item1 {
+        background-color: yellow;
+    }
+    .item1:before {
+    content: "Средние экраны";
+    position: absolute;
+    }
+}
+@media screen and (max-width: 992px) {
+    .item1 {
+        background-color: blue;
+    }
+    .item1:before {
+    content: "Небольшие экраны + большие планшеты";
+    position: absolute;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .item1 {
+        background-color: green;
+    }
+    .item1:before {
+    content: "Средние экраны";
+    position: absolute;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item1 {
+        background-color: #999;
+    }
+    .item1:before {
+    content: "Планшеты";
+    position: absolute;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .item1 {
+        background-color: rgb(155, 88, 88);
+    }
+    .item1:before {
+    content: "Телефоны";
+    position: absolute;
+    }
+}

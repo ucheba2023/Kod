@@ -1,0 +1,125 @@
+body {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* text-align: right; */
+}
+
+.header {
+    color: #000;
+}
+
+.container {
+    max-width: 1536px;
+    height: 192px; 
+    border: 1px solid #000; 
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-title {
+    display: block;
+    align-items: center;
+    padding-top: 40px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.header-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 300px;
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 2px 40px;
+
+}
+.phono {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.logo {
+    /* width: 50px;
+    height: 74px; */
+    /* border: 1px solid red; */
+    margin: 24px;
+}
+
+.nav {
+    display: block;
+}
+
+.menu {
+    display: flex;
+}
+.menu-link {
+    /* font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px */
+    border-bottom: 1px dashed #8B5CF6; 
+    color: #8B5CF6;
+}
+
+.menu-link2 {
+    color: #8B5CF6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.menu-link1, .menu-link3 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.menu-item{
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.header-vantitle {
+    font-weight: 300px;
+    font-size: 24px;
+    line-height: 32px;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    color: #fff;
+    background-color: #8B5CF6;
+    padding: 10px 28px 10px 28px;
+    position: relative;
+    left: 130px;
+    /* margin-bottom: auto; */
+    display: block;
+    margin: -35px 1200px auto;
+}
+
+
+

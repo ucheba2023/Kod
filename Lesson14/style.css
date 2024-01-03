@@ -1,0 +1,132 @@
+body, 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+} 
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.heading {
+    font-family: Cabin;
+    line-height: 116%;
+    font-weight: 700;
+}
+.heading_1 {
+    font-size: 50px;
+}
+.heading_2 {
+    font-size: 45px;
+}            
+.header {
+    background-color: rgba(27, 27, 27, 0.91);
+    padding: 40px 0;
+}
+.logo {
+    display: inline-block;
+    
+}
+.logo__text {
+    color: #fff;
+    font-size: 23px;
+    vertical-align: 5px;
+    margin-left: 11px;
+}
+.logo_mr105 {
+    margin-right: 105px;
+}
+.header__menu {
+    display: inline-block;
+    /* list-style: circle;
+    list-style-position: inside; */
+    vertical-align: 11px;
+}
+.header__list {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header__list::before {
+    content: url("img/Ellipse 2.svg");
+    margin-right: 9px;
+}
+
+.header__list:last-child() {
+    margin-right: 0px;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+    /* padding: 20px; */
+    display: inline-block;
+}
+
+.header__list:hover .header__link {
+    color: #5ab612;
+
+}
+.header__list:hover:before {
+    content: url("img/Ellipse 2 (1).svg");
+}
+.header__phono {
+    margin-left: 105px;
+    background-color: #fff;
+    border-radius: 42px;
+    padding: 8px 41px 8px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.header__phono-text {
+    vertical-align: 17px;
+    color: rgb(35, 35, 35);
+    font-size: 18px;
+    margin-left: 11px;
+    font-weight: 600px;
+}
+.hero {
+    background-image: url(img/Photo.png);
+    padding: 172px 0 182px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__services {
+    background-color: rgba(285, 285, 285, 0.85);
+    padding: 48px 60px 58px 60px;
+    border-radius: 29px;
+    display: inline-block;
+}
+.label {
+    border-radius: 20px;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    letter-spacing: 2,32px;
+    margin-bottom: 21px;
+    display: inline-block;
+}
+.label_yellow {
+    background: #ffcc4a;
+    color: black;
+}    
+
+.hero_heading {
+    width: 668px;
+}
+.hero__title {
+    font-size: 50px;
+    width: 668px;
+}
+.label_green {
+    background: #5ab612;
+    color: white;
+}

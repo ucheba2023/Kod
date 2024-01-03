@@ -1,0 +1,226 @@
+body,
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;   
+}
+
+body>* {
+    padding: 0 50px;
+}
+header {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.2)), url(FpHK1wzTHQI.jpg);
+    background-position: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+}
+
+header>* {
+    /* border: 1px solid red; */
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+.header-top h2 {
+    color: #eee;
+}
+.header-top ul {
+    /* border: 1px solid red; */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.header-top a {
+    background-color: #bbb;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+.header-top a:hover {
+    color: #aaa;
+}
+header h1 {
+    text-align: center;
+}
+header>a {
+    text-align: center;
+    background-color: #aaa;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
+    align-self: center;
+} 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    border: 1px solid red;
+    justify-content: space-around;
+}
+.content {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.content-item {
+    border: 1px solid red;
+    background-color: #eee;
+    border-radius: 4px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.content-item a {
+    text-align: center;
+    background-color: #aaa;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+footer {
+    border: 1px solid red;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    
+}
+footer * {
+    color: #fff;
+}
+footer p {
+    width: 550px;
+    border: 1px solid red;
+}
+form {
+    width: 250px;
+    border: 1px solid red;
+}
+form input[type="email"] {
+    width: 250px;
+    margin: 7px 0;
+    padding: 5px;
+}
+form input[type="submit"] {
+    text-align: center;
+    background-color: #aaa;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+@media screen and (max-width:992px) {
+    section {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section {
+        height: 600px;
+    }
+    .content-item {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        height: 400px;
+    }
+    .content-item {
+        width: 100%;
+        height: auto;
+    }
+
+
+.header-top ul {
+    flex-direction: column;
+    width: 400px;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+
+footer {
+    height: 200px;
+}
+form {
+    width: 100px;
+}
+
+footer p {
+    height: 250px;
+}
+
+@media screen and (max-width:480px) {
+    section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content {
+        height: 550px;
+    }
+    section * {
+        font-size: 14px;
+    }
+    header h1 {
+        font-size: 26px;
+    } 
+    header h2 {
+        font-size: 18px;
+    } 
+    header a,
+    header ul li a {
+        font-size: 12px !important;
+    }
+    footer {
+        padding-left: 0;
+        padding-right: 0;
+        height: 200px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+
+    }
+    footer p {
+       width: 100%; 
+    }
+    footer form {
+        width: 100%;
+    }    
+}
+
+}

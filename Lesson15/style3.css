@@ -1,0 +1,26 @@
+.list1 {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #000;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    height: 500px;
+    flex-wrap: wrap;
+    /* width: 600px; */
+    /* align-items: flex-end; */
+    align-content: center;
+}
+
+li {
+    height: 60px;
+    width: 170px;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+li:first-child {
+    order: 1;
+}
+li:nth-child(4) {
+    order: -1;
+}

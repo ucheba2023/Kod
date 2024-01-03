@@ -1,0 +1,26 @@
+.item1 {
+    height: 200px;
+    background-color: blue;
+}
+/* @media screen and (max-width: 1000px) {
+    .item1 {
+        background-color: yellow;
+    }
+}
+@media screen and (max-width: 800px) {
+    .item1 {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .item1 {
+        background-color: green;
+    }
+} */
+
+@media screen and (min-width: 800px) {
+    .item1 {
+        background-color: green;
+    }
+}
