@@ -18,6 +18,9 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   border: 2px solid red;
+  /* overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap; */
 }
 
 .heading {
@@ -345,4 +348,111 @@ ul {
 }
 .servis__btn-yeloow {
   background-color: #ffcc4a;
+}
+.contact {
+  padding: 150px 0 100px;
+}
+.contact__feedback {
+  width: 420px;
+  height: 503px;
+  padding-top: 38px;
+  display: inline-block;
+  margin-right: 84px;
+}
+.contact__btn {
+  width: 127px;
+  height: 26px;
+  border-radius: 20px;
+  background-color: #ffcc4a;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1px 15px;
+  color: #181818;
+}
+.contact__title {
+  font-family: Cabin;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.contact__fields {
+  display: inline-block;
+}
+.contact__call-title {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #595566;
+}
+.contact__time {
+  font-family: Cabin;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact_call {
+  display: block;
+  padding: 6px 0;
+  margin-bottom: 46px;
+}
+/* .contact_call:last-child {
+  margin-bottom: 0;
+} */
+.contact_call-today {
+  display: inline-block;
+  vertical-align: middle;
+}
+.contact__img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+.contacts {
+  margin-top: 38px;
+}
+.contact__input {
+  width: 318px;
+  height: 68px;
+  border-radius: 54px;
+  padding: 22px 32px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #181818;
+}
+.contact__label {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #181818;
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+.contact__input::placeholder {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a9a9a9;
+}
+.contact__row {
+  display: inline-block;
+  margin-bottom: 28px;
+}
+.contact__btn-message {
+  width: 168px;
+  height: 61px;
+  border-radius: 42px;
+  padding: 16px 27px;
+  background-color: #181818;
+  color: #fff;
+}
+.contact__input-row {
+  width: 668px;
+  height: 157px;
+  border-radius: 22px;
+  padding: 22px 80px 111px 33px;
+  resize: none;
+}
+.contact__column {
+  margin-right: 24px;
 }
