@@ -456,3 +456,59 @@ ul {
 .contact__column {
   margin-right: 24px;
 }
+.footer {
+  background-color: rgba(24, 24, 24, 0.9);
+}
+.logo__text-info {
+  font-family: Cabin;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+.container__footer {
+  width: 1999px;
+  height: 237px;
+  margin: 126px 360px 126px 360px;
+  /* border: 2px solid red; */
+  margin-left: 0;
+  margin-top: 0;
+}
+.footer__logo {
+  display: inline-block;
+  /* border: 2px solid blue; */
+  margin-top: 126px;
+}
+.footer__info-text,
+.footer__product-info {
+  font-family: Cabin;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer__list {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer__btn {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  width: 214px;
+  height: 59px;
+  border-radius: 42px;
+  padding: 23px 15px;
+  background-color: #fff;
+  color: #181818;
+}
+.footer__product,
+.footer__company,
+.footer__address {
+  display: inline-block;
+  /* border: 2px solid aqua; */
+  vertical-align: top;
+  margin-left: 99px;
+  margin-top: 126px;
+  max-width: 232px;
+}
